@@ -1,0 +1,135 @@
+td, th {
+	border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: dashed;
+    border-color: sandybrown;
+    border-top-width: thick;
+}
+body {
+	background-image: url(../images/background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+table {
+	margin-left: auto;
+    margin-right: auto;
+}
+.empty {
+	border: none;
+}
+.merc_title_cell {
+	border-top: none;
+	padding-bottom: 1%;
+	font-size: 2em;
+	font-style: oblique;
+	color: powderblue;
+}
+.merc_title_cell:hover {
+	background-color: indianred;
+}
+.ven_title_cell {
+	border-top: none;
+	padding-bottom: 1%;
+	font-size: 2em;
+	font-style: oblique;
+	color: orange;
+}
+.ven_title_cell:hover {
+	background-color: saddlebrown;
+}
+.mars_title_cell {
+	border-top: none;
+	padding-bottom: 1%;
+	font-size: 2em;
+	font-style: oblique;
+	color: orangered;
+}
+.mars_title_cell:hover {
+	background-color: lightsteelblue;
+}
+.nept_title_cell {
+	border-top: none;
+	padding-bottom: 1%;
+	font-size: 2em;
+	font-style: oblique;
+	color: cornflowerblue;
+}
+.nept_title_cell:hover {
+	background-color: darkgreen;
+}
+.merc_cell {
+	color: powderblue;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	text-align: center;
+}
+.merc_cell:hover {
+	background-color: indianred;
+}
+.venus_cell {
+	color: orange;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	text-align: center;
+}
+.venus_cell:hover {
+	background-color: saddlebrown;
+}
+.mars_cell {
+	color: orangered;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	text-align: center;
+}
+.mars_cell:hover {
+	background-color: lightsteelblue;
+}
+.nept_cell {
+	color: cornflowerblue;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	text-align: center;
+}
+.nept_cell:hover {
+	background-color: darkgreen;
+}
+.info_col {
+	color: white;
+	border-right: dashed;
+	border-color: sandybrown;
+	font-size: 1.5em;
+	text-align: right;
+}
+.info_col:hover {
+	background-color: purple;
+}
+h1 {
+	font-size: 3em;
+	color: sandybrown;
+	text-align: center;
+	text-decoration: underline overline;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%
+}
+.merc_img {
+	height: 100px;
+	width: 100px;
+}
+.venus_img {
+	height: 200px;
+	width: 200px;
+}
+.mars_img {
+	height: 210px;
+	width: 210px;
+}
+.nept_img {
+	height: 100px;
+	width: 100px;
+}
